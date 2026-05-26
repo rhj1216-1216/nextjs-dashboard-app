@@ -16,6 +16,8 @@ Vercel을 통해 배포했습니다.
 
 - 배포 URL:
   [https://nextjs-dashboard-app-roan-six.vercel.app/](https://nextjs-dashboard-app-roan-six.vercel.app/)
+- 데이터베이스:
+  Vercel에서 제공하는 PostgreSQL 기반 데이터베이스를 연결했습니다.
 
 ## 실행 방법
 
