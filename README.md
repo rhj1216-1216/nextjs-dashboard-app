@@ -10,6 +10,13 @@
 - 커리큘럼:
   [Next.js Learn](https://nextjs.org/learn)
 
+## 배포
+
+Vercel을 통해 배포했습니다.
+
+- 배포 URL:
+  [https://nextjs-dashboard-app-roan-six.vercel.app/](https://nextjs-dashboard-app-roan-six.vercel.app/)
+
 ## 실행 방법
 
 ```bash
