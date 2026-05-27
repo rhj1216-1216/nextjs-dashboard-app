@@ -1,14 +1,39 @@
 # Next.js Dashboard App
 
 이 프로젝트는 Next.js 공식 Learn 과정의 Dashboard App 코스를 그대로 따라
-학습하기 위한 프로젝트입니다.
+학습하면서, 배포와 데이터베이스 연결, 인증, 접근성, 오류 처리까지 직접
+구현해 본 포트폴리오용 학습 프로젝트입니다.
+
+## 프로젝트 개요
+
+- Next.js App Router 기반 대시보드 애플리케이션
+- 서버 컴포넌트, 서버 액션, 스트리밍, 검색/페이지네이션 학습
+- NextAuth.js를 이용한 로그인 인증 구현
+- Vercel 배포와 PostgreSQL 기반 데이터베이스 연결 경험 정리
+- ESLint, Prettier, pnpm 기반 개발 환경 구성
+- 공식 커리큘럼 이후 인보이스 폼 오류 처리와 로그인 예제 계정 안내 개선
+
+## 화면 미리보기
+
+### 대시보드
+
+![대시보드 화면](./public/results/대시보드.png)
+
+### 인보이스
+
+![인보이스 화면](./public/results/인보이스.png)
+
+### Vercel 프로젝트 관리 화면
+
+![Vercel 사용자 화면](./public/results/vercel%20사용자%20화면.png)
 
 ## 학습 자료
 
 - 공식 코스:
   [Next.js Learn - Dashboard App](https://nextjs.org/learn/dashboard-app/)
-- 현재 진행 중인 장:
-  [Improving Accessibility](https://nextjs.org/learn/dashboard-app/improving-accessibility)
+- 학습 진행:
+  [Metadata](https://nextjs.org/learn/dashboard-app/adding-metadata) 장까지 진행 후,
+  사용 중 불편했던 부분을 추가로 개선했습니다.
 - 커리큘럼:
   [Next.js Learn](https://nextjs.org/learn)
 
@@ -31,8 +56,22 @@ Vercel을 통해 배포했습니다.
 
 - 배포 URL:
   [https://nextjs-dashboard-app-roan-six.vercel.app/](https://nextjs-dashboard-app-roan-six.vercel.app/)
+- Vercel 프로젝트 관리 화면:
+  [https://vercel.com/ryuhojin-s-projects/nextjs-dashboard-app](https://vercel.com/ryuhojin-s-projects/nextjs-dashboard-app)
 - 데이터베이스:
   Vercel에서 제공하는 PostgreSQL 기반 데이터베이스를 연결했습니다.
+
+### Vercel 사용 경험
+
+이 프로젝트에서는 GitHub 저장소와 Vercel 프로젝트를 연결해 배포 흐름을 구성했고,
+배포 환경에서 필요한 환경 변수와 PostgreSQL 기반 데이터베이스 연결을 직접
+설정했습니다. 로컬 개발 환경과 배포 환경에서 인증, 데이터 조회, 시드 데이터
+동작이 다르게 보일 수 있는 부분도 확인하면서 배포 이후의 검증 과정을 함께
+경험했습니다.
+
+포트폴리오 관점에서는 단순히 화면을 만든 것뿐 아니라, GitHub 저장소 연결,
+Vercel 배포, 환경 변수 관리, 데이터베이스 연결, 배포 후 동작 확인까지 전체
+웹 애플리케이션 배포 흐름을 직접 다뤄본 프로젝트로 정리할 수 있습니다.
 
 ## 실행 방법
 
